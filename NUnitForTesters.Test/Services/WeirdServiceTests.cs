@@ -25,5 +25,13 @@ namespace NUnitForTesters.Test.Services
             Assert.That(result, Is.LessThanOrEqualTo(1000));
         }
 
+        [Test, Timeout(2000)]
+        public void TimeoutTest()
+        {
+            var result = WeirdService.ThisMethodWillTimeout();
+            StringAssert.AreEqualIgnoringCase("This method should timeout", result);
+        }
+
+
     }
 }
