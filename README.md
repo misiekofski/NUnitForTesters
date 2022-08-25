@@ -75,5 +75,5 @@ Dokumentacja klasy: https://docs.nunit.org/articles/nunit/writing-tests/assertio
 1. Utwórz nowy obiekt konstruktorem `CollectionService` i jako parametr przekaż listę ze swoim imieniem i nazwiskiem.
 2. Sprawdź czy metoda `GetInitialsFromNames()` zwraca poprawne inicjały
 3. Dodaj kolejny element do listy nazwisk (np. kolegi)
-4. Sprawdź rozmiar listy imion oraz listy inicjałów są takie same.
+4. Sprawdź rozmiar listy imion oraz listy inicjałów czy są takie same.
 5. Złap wszystkie asercje w `Assert.Multiple()`
